@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style_A.css">
+    <link rel="stylesheet" href="/css/styles_B.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/favicons/cropped-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/favicons/cropped-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/favicons/cropped-favicon-180x180.png" />
+    {{ $title := site.Title }}
+    {{ if not .IsHome }}
+      {{ $title = printf "%s | %s" .Title site.Title }}
+    {{ end }}
+    <title>
+      {{ $title }}
+    </title>
+    
+    <script src="/js/jquery.1.12.4.js"></script>
+    <script src="/js/jquery-migrate.1.4.1.js"></script>
+  </head>
+  <body class="home page page-loading app-data index-data singular-data page-data page-21-data page-home-data front-page-data">
+    <header class="header" id="header">
+      <!-- .header--light -->
+      <div class="header__wrapper">
+        <div class="header__inner">
+            <div class="header__holder">
+                <div class="header__logo">
+                    <a class="logo" href="/">
+                        <img src="/images/turbulent-flux-logo.svg" class="logo__img" alt="" />
+                    </a>
+                </div>
+
+                <div class="header__nav">
+                    <nav class="navbar">
+                        <ul id="menu-header-navigation" class="navbar__list">
+                            <li class="menu-item menu-about"><a href="/about">About</a></li>
+                            <li class="menu-item menu-contact"><a href="/contact">Contact</a></li>
+                            <li class="active menu-item menu-use-case"><a href="/case" aria-current="page">Use Case</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <button type="button" class="navbar__toggle-buttons mobile-menu-toggle hamburger hamburger--squeeze" id="mobile-menu-toggle">
+                    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </header>
+    <div class="wrap container" role="document">
+        <div class="content">
+            <main>
+            {{ block "main" . }}{{ end }}
+            </main>
+        </div>
+    </div>
+    <footer>
+      <!-- some footer -->
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

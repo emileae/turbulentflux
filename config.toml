@@ -1,0 +1,8 @@
+baseURL = "https://turbulentflux.com"
+languageCode = "en-us"
+title = "Turbulent Flux"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

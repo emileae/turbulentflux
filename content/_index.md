@@ -1,0 +1,247 @@
+---
+title: ""
+date: 2020-04-26T23:13:50+02:00
+draft: true
+---
+
+<main class="main">
+                <div class="side-navigation js-sticky-menu">
+                    <ul class="side-navigation__list">
+                        <li class="side-navigation__item">
+                            <a href="#ID-why-we-exist" class="side-navigation__link">Why we exist</a>
+                        </li>
+                        <li class="side-navigation__item">
+                            <a href="#ID-our-software" class="side-navigation__link">Our software</a>
+                        </li>
+                        <li class="side-navigation__item">
+                            <a href="#ID-how-it-works" class="side-navigation__link">How it works</a>
+                        </li>
+                        <li class="side-navigation__item">
+                            <a href="#ID-get-in-touch" class="side-navigation__link">Get in touch</a>
+                        </li>
+                    </ul>
+                </div>
+                <section class="hero hero--front" id="">
+                    <div class="hero__bg-image-holder">
+                        <div class="hero__bg-image-desktop" style="background-image: url('/images/shutterstock_647151109.jpg')"></div>
+                        <div class="hero__bg-image-mobile" style="background-image: url('/images/shutterstock_647151109.jpg')"></div>
+                    </div>
+                    <div class="hero__wrapper">
+                        <div class="hero__inner">
+                            <div class="hero__holder">
+                                <div class="hero__content">
+                                    <h1 class="hero__heading">Plug and play software to improve your oil and gas production.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="section section--p-y section--white js-scroll-trigger" id="#ID-why-we-exist">
+                    <div class="section__wrapper">
+                        <div class="section__inner section__inner--small section__inner--m-t">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <div class="read-more js-read-more" data-max-height="400">
+                                        <div class="read-more__content js-read-more-content">
+                                            <h2>Why we exist</h2>
+                                            <p>The Oil and Gas industry stands on the edge of a new frontier. Digital transformation is continuously changing how we operate, and as digitalization increases, we expect reduced workforces to take on greater workloads. It’s expected that we deliver more and better with fewer resources.</p>
+                                            <p>The best technology for production optimization has until now only been available to the happy few. Solutions are expensive and time-consuming to install; scalability is limited.</p>
+                                            <p>We believe there is an alternative.</p>
+                                            <p><strong>Turbulent Flux wants to take the lead on technology for production improvement, building on the idea of independence, flexibility and scalability.</strong></p>
+                                            <p>We make world-leading software for flow insights accessible for everyone in our industry. We redefine how data from production is used, enabling around the clock access to real-time, high-precision insights.</p>
+                                            <p>Turbulent Flux empowers the oil and gas industry to face current challenges head-on thanks to radically better utilization of data.</p>
+                                            <p>Having the right information, all the time, means better decisions, all the time. We help you reap the benefits of optimized production, boosted efficiency and increased safety in your operations.</p>
+                                            <p><strong>Together, we set the new standard for flow insights in our industry.</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section section--p-y section--gray js-scroll-trigger" id="#ID-our-software">
+                    <div class="section__wrapper">
+                        <div class="section__inner section__inner--small section__inner--m-t">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <div class="read-more js-read-more" data-max-height="400">
+                                        <div class="read-more__content js-read-more-content">
+                                            <h2>Our software</h2>
+                                            <h3>Plug and play software for production improvement in oil and gas.</h3>
+                                            <p>How can we produce more efficiently? How hard can we run this well without compromising installations? How can we avoid unexpected shut-ins from unstable flow?</p>
+                                            <p>Virtual Flow Meter</p>
+                                            <p>These are some of the questions that have until now been difficult to answer, hindering optimization of future production flow. Over the years, tests, sensor data and modelling have partly filled the knowledge gap, but real-time insights have so far been unavailable to personnel in oil and gas operations.</p>
+                                            <p>Turbulent Flux have developed a model that combines the predictive capabilities of physical models and the speed and self-correcting abilities of data analytics. The result is a uniquely open and scalable software that offers world-leading precision in flow insights.</p>
+                                            <p>Our subscription-based solution (SaaS) offers a technology that is easy to adapt and quick to deploy. We make good use of any data source you already have &#8211; there is no locking you down to new, inflexible and costly equipment. In practice, this means that we capture data from your existing pressure and temperature sensors and integrate them with the operations dashboards and apps of your choice. The software is cloud-native with a rich API for third-party use.</p>
+                                            <p>Turbulent Flux gives you access to industry-leading precision in flow insights through a cost-efficient system that is easy to install and maintain. We also guarantee trouble-free scaling across your oil and gas portfolios.</p>
+                                            <h3>One-click production improvement.</h3>
+                                            <p>Turbulent Flux means full control, all the time. By offering 24/7 real-time monitoring of wells and pipelines, our software offers continuous decision support to improve production from your fields.</p>
+                                            <p>Thanks to our physics-based modelling, Turbulent Flux provides a precision level that goes beyond what traditional analytics-based simulations can offer. Our software has the power to turn physical data from existing sensors into readily available and valuable insights to use in your decision-making. At any time, you can access high-fidelity information about the flow of oil, gas and water in your wells and pipelines.</p>
+                                            <p>Turbulent Flux is designed to provide expert guidance to field personnel, enabling continuous, one-click improvement of the production. This means higher efficiency, increased profitability and improved safety on your production sites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__inner section__inner--m-t">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <div class="content-box__wrapper">
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Differentiators
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Robust and efficient calculations</li>
+                                                    <li class="content-box__list-item">Valid model over life time of system</li>
+                                                    <li class="content-box__list-item">Open technology access</li>
+                                                    <li class="content-box__list-item">Rapid deployment</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="content-box__arrow">
+                                            <img src="/images/icons/icon-box-arrow-right.svg" class="content-box__arrow-image" alt="" />
+                                        </div>
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Benefits
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Fit for purpose technology</li>
+                                                    <li class="content-box__list-item">Easy to sustain for field teams</li>
+                                                    <li class="content-box__list-item">Quickly harvest system values</li>
+                                                    <li class="content-box__list-item">Reduce technology dependencies</li>
+                                                    <li class="content-box__list-item">Enable innovation</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="content-box__arrow">
+                                            <img src="/images/icons/icon-box-arrow-right.svg" class="content-box__arrow-image" alt="" />
+                                        </div>
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Values
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Daily flow insights to support higher production output</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section section--p-y section--white js-scroll-trigger" id="#ID-how-it-works">
+                    <div class="section__wrapper">
+                        <div class="section__inner section__inner--small section__inner--m-t">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <div class="read-more js-read-more" data-max-height="400">
+                                        <div class="read-more__content js-read-more-content">
+                                            <h2>How it works</h2>
+                                            <p><strong>We are not in the business of stand alone physics or data analytics estimates. We deploy a Hybrid Model that shows the effective reality.</strong></p>
+                                            <p>Turbulent Flux’ has developed a fit for purpose simulator for transient multiphase flow with opimization and data analytics capabilities. This means that our software gives you exact, information about the flow of fluids in your wells and pipes at any time.</p>
+                                            <p>Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.</p>
+                                            <p>Openness and flexibility are important values for Turbulent Flux. We facilitate third-party innovation on top of our software and provide easy access to the technology for developers that wish to create custom solutions.</p>
+                                            <p>The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__inner section__inner--m-t">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <div class="content-box__wrapper">
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Physics Model
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Extrapolate outside of measurements</li>
+                                                    <li class="content-box__list-item">Proven in the industry</li>
+                                                    <li class="content-box__list-item">Transparent physics</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="content-box__arrow">
+                                            <img src="/images/icons/icon-box-arrow-right.svg" class="content-box__arrow-image" alt="" />
+                                        </div>
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Analytics Model
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Fast result calculations</li>
+                                                    <li class="content-box__list-item">Quick to deploy</li>
+                                                    <li class="content-box__list-item">Cloud friendly</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="content-box__arrow">
+                                            <img src="/images/icons/icon-box-arrow-right.svg" class="content-box__arrow-image" alt="" />
+                                        </div>
+                                        <div class="content-box">
+                                            <div class="content-box__header">
+                                                Hybrid Model
+                                            </div>
+                                            <div class="content-box__content">
+                                                <ul class="content-box__list">
+                                                    <li class="content-box__list-item">Applying the best of Physics and Analytics</li>
+                                                    <li class="content-box__list-item">Built for the Cloud</li>
+                                                    <li class="content-box__list-item">Industrial scalable</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section section--p-y section--gray js-scroll-trigger" id="#ID-get-in-touch">
+                    <div class="section__wrapper">
+                        <div class="section__inner section__inner--small">
+                            <div class="section__holder">
+                                <div class="section__content section__content--full">
+                                    <h2>Wanna know more? Get in touch</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__inner">
+                            <div class="section__holder">
+                                <div class="section__content">
+                                    <div role="form" class="wpcf7" id="wpcf7-f5-p21-o1" lang="en-US" dir="ltr">
+                                        <div class="screen-reader-response"></div>
+                                        <form action="/#wpcf7-f5-p21-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                            <div style="display: none;">
+                                                <input type="hidden" name="_wpcf7" value="5" />
+                                                <input type="hidden" name="_wpcf7_version" value="5.1.7" />
+                                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p21-o1" />
+                                                <input type="hidden" name="_wpcf7_container_post" value="21" />
+                                            </div>
+                                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-field" aria-required="true" aria-invalid="false" placeholder="Your name*" /></span>
+                                            <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-field" aria-required="true" aria-invalid="false" placeholder="Your email*" /></span>
+                                            <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text form-field" aria-invalid="false" placeholder="Subject" /></span>
+                                            <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-field form-field--textarea" aria-invalid="false" placeholder="Your message"></textarea></span>
+                                            <div class="form-footer">
+                                                <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit button" />
+                                            </div>
+                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+

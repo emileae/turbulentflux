@@ -1,0 +1,497 @@
+{{ define "main" }}
+
+<main class="main">
+    <div class="side-navigation js-sticky-menu">
+        <ul class="side-navigation__list">
+            <li class="side-navigation__item">
+                <a href="#ID-about" class="side-navigation__link">About</a>
+            </li>
+            <li class="side-navigation__item">
+                <a href="#ID-team" class="side-navigation__link">Team</a>
+            </li>
+            <li class="side-navigation__item">
+                <a href="#ID-board" class="side-navigation__link">Board</a>
+            </li>
+        </ul>
+    </div>
+    <section class="hero hero--front" id="">
+        <div class="hero__bg-image-holder">
+            <div class="hero__bg-image-desktop" style="background-image: url('/images/shutterstock_425153317-1.jpg')"></div>
+            <div class="hero__bg-image-mobile" style="background-image: url('/images/shutterstock_425153317-1.jpg')"></div>
+        </div>
+        <div class="hero__wrapper">
+            <div class="hero__inner">
+                <div class="hero__holder">
+                    <div class="hero__content">
+                        <h1 class="hero__heading">We democratize the use of multiphase flow information.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section section--p-y section--white js-scroll-trigger" id="#ID-about">
+        <div class="section__wrapper">
+            <div class="section__inner section__inner--small section__inner--m-t">
+                <div class="section__holder">
+                    <div class="section__content section__content--full">
+                        <div class="read-more js-read-more" data-max-height="400">
+                            <div class="read-more__content js-read-more-content">
+                                {{.Content}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section--p-y section--gray js-scroll-trigger" id="#ID-team">
+        <div class="section__wrapper">
+            <div class="section__inner section__inner--small">
+                <div class="section__holder">
+                    <div class="section__content section__content--full">
+                        <h2>Team</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section__inner section__inner--small">
+                <div class="section__holder">
+
+                    {{range .Site.Data.staff}}
+                        <div class="section__content section__content--one-third">
+                            <div class="team-box">
+                                <div class="team-box__image-holder">
+                                    <img data-src="{{.image}}" class="team-box__image lozad" alt="" />
+                                </div>
+                                <p class="team-box__name">{{.name}}</p>
+                                <p class="team-box__position">{{.position}}</p>
+                                <div class="team-box__show-more">
+                                    <div class="team-box__show-more-content">
+                                        <div class="team-box__text">
+                                            <p>
+                                                {{.description | safeHTML}}
+                                            </p>
+                                            <p>
+                                                <a href="mailto:{{.email}}">{{.email}}</a>
+                                                <br /> {{.phone}}
+                                                <br />
+                                                <a href="{{.linkedin}}">LinkedIn</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="team-box__show-more-icons">
+                                        <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                        <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {{end}}
+
+                    <!-- <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Lars-Wollebaek.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Lars Wollebæk (PhD)
+                            </p>
+                            <p class="team-box__position">
+                                CTO
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>PhD in structural engineering. Experience from key technology positions related to multiphase flow and numerical methods in companies like SPT Group and Schlumberger. Former Lead Architect of OLGA and a recognized world expert in flow simulation technology.</p>
+                                        <p><a href="https://www.linkedin.com/in/lars-wolleb%C3%A6k-874b5a20/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Torgeir-Ruden.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Torgeir Ruden (PhD)
+                            </p>
+                            <p class="team-box__position">
+                                Software Development Manager
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>PhD in theoretical chemistry. Long experience from key development positions within fluid chemistry and multiphase flow in SPT Group and Schlumberger. Significant expertise and experience within numerical simulations and high performance computing in multiple disciplines, such as multiphase flow, theoretical chemistry and bioinformatics.</p>
+                                        <p><a href="https://www.linkedin.com/in/torgeir-ruden-a2798728/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Johan-Henriksson.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Johan Henriksson (PhD)
+                            </p>
+                            <p class="team-box__position">
+                                Product Manager
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p><a href="https://www.linkedin.com/in/johan-henriksson-a124384/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Emile-Esterhuizen.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Emile Esterhuizen
+                            </p>
+                            <p class="team-box__position">
+                                Software Engineer (BSc)
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>Very experienced full-stack developer, 10+ years of experience from implementing the latest cloud technologies, both in start-ups and larger organisations.</p>
+                                        <p><a href="https://www.linkedin.com/in/emileesterhuizen/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Zongchang-Yang.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Zongchang Yang (PhD)
+                            </p>
+                            <p class="team-box__position">
+                                Senior Data Scientist
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>&nbsp;</p>
+                                        <p><a href="https://www.linkedin.com/in/zongchang-yang-19490241/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Farnaz-Rezvany-Hesar.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Farnaz Rezvany Hesary
+                            </p>
+                            <p class="team-box__position">
+                                Software Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p><a href="https://www.linkedin.com/in/farnaz-rezvany-hesary-06ba66179/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Tor-Sommersel.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Tor Sommersel
+                            </p>
+                            <p class="team-box__position">
+                                Principal Software Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>&nbsp;</p>
+                                        <p><a href="https://www.linkedin.com/in/tor-sommersel-2bb2574/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Hatef-Khaledi.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Hatef Khaledi (PhD)
+                            </p>
+                            <p class="team-box__position">
+                                Senior Project Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>PhD in fluid mechanics from NTNU. Working experience from both oil &amp; gas and the automotive industry. Several years of experience, working as a senior flow assurance consultant in Schlumberger.</p>
+                                        <p><a href="https://www.linkedin.com/in/hatefkhaledi/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="/images/icons/icon-plus-circle.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Hemant-Nikhar.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Hemant Nikhar
+                            </p>
+                            <p class="team-box__position">
+                                Senior Project Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p><a href="https://www.linkedin.com/in/hemantnikhar/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Syed-Amjad-Hussain-Zaidy.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Syed Amjad Hussain Zaidy
+                            </p>
+                            <p class="team-box__position">
+                                Senior Project Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p><a href="https://www.linkedin.com/in/syed-amjad-hussain-zaidy-0585a052/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Torgeir-Vanvik.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Torgeir Vanvik
+                            </p>
+                            <p class="team-box__position">
+                                Principal Project Engineer
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>&nbsp;</p>
+                                        <p><a href="https://www.linkedin.com/in/tvanvik/">LinkedIn</a></p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section--p-y section--gray js-scroll-trigger" id="#ID-board">
+        <div class="section__wrapper">
+            <div class="section__inner section__inner--small">
+                <div class="section__holder">
+                    <div class="section__content section__content--full">
+                        <h2>Board</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section__inner section__inner--small">
+                <div class="section__holder">
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Tom-Even-Mortensen.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Tom Even Mortensen
+                            </p>
+                            <p class="team-box__position">
+                                Chairman
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>Former CEO of SPT Group and CEO of Imarex. Advisor in Summa Equity.</p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Olav-Fjell.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Olav Fjell
+                            </p>
+                            <p class="team-box__position">
+                                Member
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>Former CEO of Statoil and Chairman of Statkraft. Extensive industrial experience.</p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-plus-circle_6ded519b.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="http://35.187.119.76/app/themes/turbulent-flux/dist/images/icons/icon-minus-circle_3d9fd8c2.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <div class="team-box__image-holder">
+                                <img data-src="/images/TF_Yngve-Tvedt.jpg" class="team-box__image lozad" alt="" />
+                            </div>
+                            <p class="team-box__name">
+                                Ynge Tvedt
+                            </p>
+                            <p class="team-box__position">
+                                Member
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>Founded and co-founded eight IT companies. Currently: General Partner in Norselab.</p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="/images/icons/icon-plus-circle.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="/images/icons/icon-minus-circle.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <p class="team-box__name">
+                                Torgeir Ruden
+                            </p>
+                            <p class="team-box__position">
+                                Member
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>Software Development Manager in Turbulent Flux.</p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="/images/icons/icon-plus-circle.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="/images/icons/icon-minus-circle.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__content section__content--one-third">
+                        <div class="team-box">
+                            <p class="team-box__name">
+                                Kjetil Roe
+                            </p>
+                            <p class="team-box__position">
+                                Member
+                            </p>
+                            <div class="team-box__show-more">
+                                <div class="team-box__show-more-content">
+                                    <div class="team-box__text">
+                                        <p>CFO in Turbulent Flux.</p>
+                                    </div>
+                                </div>
+                                <div class="team-box__show-more-icons">
+                                    <img src="/images/icons/icon-plus-circle.svg" class="team-box__show-more-icon js-show-more-open" alt="" />
+                                    <img src="/images/icons/icon-minus-circle.svg" class="team-box__show-more-icon js-show-more-close" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ end }}
