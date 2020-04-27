@@ -21,6 +21,43 @@ team:
       Schlumberger and SPT Group. Co-founder of a pioneer IT company in
       location-based services.
     image: /img/tf_gjermund-weisz.jpg
+  - name: Kjetil Row
+    position: CFO
+    image: /img/tf_kjetil-roe.jpg
+    email: kr@turbulentflux.com
+    phone: +47 934 506 06
+    linkedin: https://www.linkedin.com/in/kjetil-o-roe-1796653/
+    description: Sales, strategy and business development experience from Oil&Gas
+      and telecom through management positions in Schlumberger, SPT Group and
+      Telenor.
+  - name: Lars Wollebæk (PhD)
+    image: /img/tf_lars-wollebaek.jpg
+    position: CTO
+    email: lw@turbulentflux.com
+    description: PhD in structural engineering. Experience from key technology
+      positions related to multiphase flow and numerical methods in companies
+      like SPT Group and Schlumberger. Former Lead Architect of OLGA and a
+      recognized world expert in flow simulation technology.
+    linkedin: https://www.linkedin.com/in/lars-wolleb%C3%A6k-874b5a20/
+    phone: "-"
+  - name: Torgeir Ruden (PhD)
+    image: /img/tf_torgeir-ruden.jpg
+    position: Software Development Manager
+    email: tr@turbulentflux.com
+    linkedin: https://www.linkedin.com/in/torgeir-ruden-a2798728/
+    phone: "-"
+    description: PhD in theoretical chemistry. Long experience from key development
+      positions within fluid chemistry and multiphase flow in SPT Group and
+      Schlumberger. Significant expertise and experience within numerical
+      simulations and high performance computing in multiple disciplines, such
+      as multiphase flow, theoretical chemistry and bioinformatics.
+  - name: Johan Henriksson (PhD)
+    image: /img/tf_johan-henriksson.jpg
+    position: Product Manager
+    email: mail@turbulentflux.com
+    linkedin: https://www.linkedin.com/in/johan-henriksson-a124384/
+    phone: "-"
+    description: "-"
 board:
   - name: Tom Even Mortensen
     image: /img/tf_tom-even-mortensen.jpg
