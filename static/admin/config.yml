@@ -7,7 +7,7 @@
     collections:
     - name: home
       label: Home
-      folder: content/_index
+      folder: content/home
       create: false
       editor:
         preview: true
