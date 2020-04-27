@@ -7,6 +7,27 @@
     "public_folder": "/img",
     "collections": [
       {
+        "name": "home",
+        "label": "Home",
+        "folder": "content/_index",
+        "create": false,
+        "editor": {
+            "preview": true
+        },
+        "fields": [
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string"
+            },
+            {
+              "label": "Text",
+              "name": "text",
+              "widget": "markdown"
+            }
+          ]
+      },
+      {
         "name": "blog",
         "label": "Blog",
         "folder": "content/blog",
