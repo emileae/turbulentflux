@@ -20,6 +20,7 @@
         widget: markdown
     - name: contact
       label: Contact
+      folder: content/
       create: false
       editor:
         preview: true
