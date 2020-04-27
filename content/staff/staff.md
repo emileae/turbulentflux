@@ -30,16 +30,6 @@ team:
     description: Sales, strategy and business development experience from Oil&Gas
       and telecom through management positions in Schlumberger, SPT Group and
       Telenor.
-  - name: Lars Wollebæk (PhD)
-    image: /img/tf_lars-wollebaek.jpg
-    position: CTO
-    email: lw@turbulentflux.com
-    description: PhD in structural engineering. Experience from key technology
-      positions related to multiphase flow and numerical methods in companies
-      like SPT Group and Schlumberger. Former Lead Architect of OLGA and a
-      recognized world expert in flow simulation technology.
-    linkedin: https://www.linkedin.com/in/lars-wolleb%C3%A6k-874b5a20/
-    phone: "-"
   - name: Torgeir Ruden (PhD)
     image: /img/tf_torgeir-ruden.jpg
     position: Software Development Manager
@@ -51,6 +41,16 @@ team:
       Schlumberger. Significant expertise and experience within numerical
       simulations and high performance computing in multiple disciplines, such
       as multiphase flow, theoretical chemistry and bioinformatics.
+  - name: Lars Wollebæk (PhD)
+    image: /img/tf_lars-wollebaek.jpg
+    position: CTO
+    email: lw@turbulentflux.com
+    description: PhD in structural engineering. Experience from key technology
+      positions related to multiphase flow and numerical methods in companies
+      like SPT Group and Schlumberger. Former Lead Architect of OLGA and a
+      recognized world expert in flow simulation technology.
+    linkedin: https://www.linkedin.com/in/lars-wolleb%C3%A6k-874b5a20/
+    phone: "-"
   - name: Johan Henriksson (PhD)
     image: /img/tf_johan-henriksson.jpg
     position: Product Manager
