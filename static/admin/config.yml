@@ -39,8 +39,33 @@
       - label: Intro
         name: intro
         widget: markdown
-      - label: Members
-        name: members
+      - label: Team
+        name: team
+        widget: list
+        fields:
+        - label: Name
+          name: name
+          widget: string
+        - label: Image
+          name: image
+          widget: image
+        - label: Position
+          name: position
+          widget: string
+        - label: Email
+          name: email
+          widget: string
+        - label: LinkedIn
+          name: linkedin
+          widget: string
+        - label: Phone
+          name: phone
+          widget: string
+        - label: Description
+          name: description
+          widget: markdown
+      - label: Board
+        name: board
         widget: list
         fields:
         - label: Name

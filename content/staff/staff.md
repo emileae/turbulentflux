@@ -1,7 +1,8 @@
 ---
 title: Turbulent Flux Staff
 intro: Hello staff...
-members:
+type: "staff"
+team:
   - name: Halvard Ellingsen
     position: CEO
     email: he@turbulentflux.com
@@ -21,3 +22,5 @@ members:
       location-based services.
     image: /img/tf_emile-esterhuizen.jpg
 ---
+
+Some content
