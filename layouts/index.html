@@ -1,13 +1,6 @@
 {{ define "main" }}
-
-<main class="main">
-    <div class="side-navigation js-sticky-menu">
+    <!-- <div class="side-navigation js-sticky-menu is-loaded">
         <ul class="side-navigation__list">
-            <!-- {{ range .Params.sections }}
-            <li class="side-navigation__item">
-                <a href="#ID-{{ .title | urlize }}" class="side-navigation__link">{{ .title }}</a>
-            </li>
-            {{ end }} -->
             <li class="side-navigation__item">
                 <a href="#ID-why-we-exist" class="side-navigation__link">Why we exist</a>
             </li>
@@ -21,7 +14,19 @@
                 <a href="#ID-get-in-touch" class="side-navigation__link">Get in touch</a>
             </li>
         </ul>
-    </div>
+    </div> -->
+
+    
+        <div class="side-navigation js-sticky-menu is-loaded">
+            <ul class="side-navigation__list">
+                {{ range .Params.sections }}
+                <li class="side-navigation__item">
+                    <a href="#ID-{{ .title | urlize }}" class="side-navigation__link">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
     <section class="hero hero--front" id="">
         <div class="hero__bg-image-holder">
             <div class="hero__bg-image-desktop" style="background-image: url('{{ .Params.backgroundImage }}')"></div>
@@ -40,6 +45,17 @@
 
     {{ range $index, $element :=  .Params.sections }}
     <div class="section section--p-y js-scroll-trigger {{ if (modBool $index 2) }}section--white{{else}}section--gray{{ end }}" id="#ID-{{ .title | urlize }}">
+        <!-- {{ if (eq $index 0) }}
+        <div class="side-navigation js-sticky-menu is-loaded">
+            <ul class="side-navigation__list">
+                {{ range .Params.sections }}
+                <li class="side-navigation__item">
+                    <a href="#ID-{{ .title | urlize }}" class="side-navigation__link">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }} -->
         <div class="section__wrapper">
             <div class="section__inner section__inner--small section__inner--m-t">
                 <div class="section__holder">
@@ -264,6 +280,5 @@
             </div>
         </div>
     </div>
-</main>
 
 {{ end }}

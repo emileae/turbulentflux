@@ -8,7 +8,7 @@
     - name: home
       label: Home
       folder: content/home
-      create: true
+      create: false
       editor:
         preview: true
       fields:
@@ -21,6 +21,26 @@
     - name: blog
       label: Blog
       folder: content/blog
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      editor:
+        preview: false
+      fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Description
+        name: description
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+    - name: case
+      label: Case
+      folder: content/case
       create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       editor:
