@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+<div class="side-navigation js-sticky-menu">
+    <ul class="side-navigation__list">
+        <li class="side-navigation__item">
+            <a href="#ID-where-to-find-us" class="side-navigation__link">Where to find us</a>
+        </li>
+        <li class="side-navigation__item">
+            <a href="#ID-contact-us" class="side-navigation__link">Contact us</a>
+        </li>
+    </ul>
+</div>
+<section class="hero hero--front" id="">
+    <div class="hero__bg-image-holder">
+        <div class="hero__bg-image-desktop" style="background-image: url('{{ .Params.backgroundImage }}')"></div>
+        <div class="hero__bg-image-mobile" style="background-image: url('{{ .Params.backgroundImage }}')"></div>
+    </div>
+</section>
+<div class="section section--p-t section--white js-scroll-trigger" id="#ID-where-to-find-us">
+    <div class="section__wrapper">
+        <div class="section__inner section__inner--small">
+            <div class="section__holder">
+                <div class="section__content section__content--full">
+                    <h2>Where to find us</h2>
+                </div>
+            </div>
+        </div>
+        <div class="section__inner section__inner--small">
+            <div class="section__holder">
+                <div class="section__content section__content--half">
+                    {{ .Params.rightColumn | safeHTML }}
+                </div>
+                <div class="section__content section__content--half">
+                    {{ .Params.leftColumn | safeHTML }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section section--full" id="">
+    <div class="section__wrapper section__wrapper--m-t">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.8133446089737!2d10.682430816469823!3d59.918645070672994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416db53dc3e745%3A0xd5a115d41bc6964d!2sKarenslyst%20All%C3%A9%206%2C%200278%20Oslo%2C%20Norway!5e0!3m2!1sen!2shr!4v1583128269282!5m2!1sen!2shr" frameborder="0" class="google-map" allowfullscreen=""></iframe>
+    </div>
+</div>
+<div class="section section--p-y section--gray js-scroll-trigger" id="#ID-contact-us">
+    <div class="section__wrapper">
+        <div class="section__inner section__inner--small">
+            <div class="section__holder">
+                <div class="section__content section__content--full">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+        </div>
+        <div class="section__inner">
+            <div class="section__holder">
+                <div class="section__content">
+                    <div role="form" class="wpcf7" id="wpcf7-f5-p25-o1" lang="en-US" dir="ltr">
+                        <div class="screen-reader-response"></div>
+                        <form action="/contact/#wpcf7-f5-p25-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="5" />
+                                <input type="hidden" name="_wpcf7_version" value="5.1.7" />
+                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p25-o1" />
+                                <input type="hidden" name="_wpcf7_container_post" value="25" />
+                            </div>
+                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-field" aria-required="true" aria-invalid="false" placeholder="Your name*" /></span>
+                            <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-field" aria-required="true" aria-invalid="false" placeholder="Your email*" /></span>
+                            <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text form-field" aria-invalid="false" placeholder="Subject" /></span>
+                            <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-field form-field--textarea" aria-invalid="false" placeholder="Your message"></textarea></span>
+                            <div class="form-footer">
+                                <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit button" />
+                            </div>
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section section--p-y section--white" id="">
+</div>
+
+{{ end }}

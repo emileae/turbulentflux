@@ -3,7 +3,12 @@
 
 <div class="side-navigation js-sticky-menu">
     <ul class="side-navigation__list">
+        {{range .Pages }}
         <li class="side-navigation__item">
+            <a href="#ID-{{ .Title | urlize }}" class="side-navigation__link">{{ .Title }}</a>
+        </li>
+        {{ end }}
+        <!-- <li class="side-navigation__item">
             <a href="#ID-virtual-flow-meter" class="side-navigation__link">Virtual Flow Meter</a>
         </li>
         <li class="side-navigation__item">
@@ -11,7 +16,7 @@
         </li>
         <li class="side-navigation__item">
             <a href="#ID-flow-information-on-demand" class="side-navigation__link">Flow Information on Demand</a>
-        </li>
+        </li> -->
     </ul>
 </div>
 <section class="hero hero--front" id="">
@@ -30,7 +35,7 @@
     </div>
 </section>
 {{range .Pages }}
-<div class="section section--p-y section--white js-scroll-trigger" id="#ID-virtual-flow-meter">
+<div class="section section--p-y section--white js-scroll-trigger" id="#ID-{{ .Title | urlize }}">
     <div class="section__wrapper">
         <div class="section__inner section__inner--small section__inner--m-t">
             <div class="section__holder">
