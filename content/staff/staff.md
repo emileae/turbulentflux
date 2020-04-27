@@ -1,7 +1,7 @@
 ---
 title: Turbulent Flux Staff
 intro: Hello staff...
-type: "staff"
+type: staff
 team:
   - name: Halvard Ellingsen
     position: CEO
@@ -21,6 +21,14 @@ team:
       Schlumberger and SPT Group. Co-founder of a pioneer IT company in
       location-based services.
     image: /img/tf_emile-esterhuizen.jpg
+board:
+  - name: Tom Even Mortensen
+    image: /img/tf_tom-even-mortensen.jpg
+    position: Chairman
+    email: "-"
+    description: Former CEO of SPT Group and CEO of Imarex. Advisor in Summa Equity.
+    linkedin: "-"
+    phone: "-"
 ---
 
 Some content
