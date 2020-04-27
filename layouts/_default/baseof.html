@@ -37,9 +37,9 @@
                 <div class="header__nav">
                     <nav class="navbar">
                         <ul id="menu-header-navigation" class="navbar__list">
-                            <li class="menu-item menu-about"><a href="/about">About</a></li>
-                            <li class="menu-item menu-contact"><a href="/contact">Contact</a></li>
-                            <li class="active menu-item menu-use-case"><a href="/case" aria-current="page">Use Case</a></li>
+                            <li class='menu-item menu-about {{ if eq .Params.title "About" }}active{{ end }}'><a href="/about">About</a></li>
+                            <li class='menu-item menu-contact {{ if eq .Params.title "Contact" }}active{{ end }}'><a href="/contact">Contact</a></li>
+                            <li class='menu-item menu-use-case {{ if eq .Params.title "Case" }}active{{ end }}'><a href="/case">Use Case</a></li>
                         </ul>
                     </nav>
                 </div>
