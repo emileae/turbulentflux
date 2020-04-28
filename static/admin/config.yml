@@ -30,7 +30,7 @@
             - {label: Left Column, name: leftColumn, widget: markdown}
         - label: "Home"
           name: "home"
-          file: "content/home.md"
+          file: "content/_index.md"
           fields:
             - {label: Title, name: title, widget: string}
             - {label: Hero Image, name: heroImage, widget: image}
