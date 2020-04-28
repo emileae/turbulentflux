@@ -18,22 +18,16 @@
       - label: Text
         name: text
         widget: markdown
-    - name: contact
-      label: Contact
-      file: content/contact.md
-      create: false
-      editor:
-        preview: true
-      fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Right Column
-        name: rightColumn
-        widget: markdown
-      - label: Left Column
-        name: leftColumn
-        widget: markdown
+    - name: pages
+      label: Pages
+      files: 
+        - label: "Contact"
+          name: "contact"
+          file: "content/contact.md"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Right Column, name: rightColumn, widget: markdown}
+            - {label: Left Column, name: leftColumn, widget: markdown}
     - name: blog
       label: Blog
       folder: content/blog
