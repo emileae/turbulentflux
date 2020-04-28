@@ -1,4 +1,4 @@
 ---
 title: Home
-text: This is the home page
+text: Hello home page
 ---

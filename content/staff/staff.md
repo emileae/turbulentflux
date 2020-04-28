@@ -1,17 +1,8 @@
 ---
 title: Turbulent Flux Staff
-intro: Hello staff...
+intro: Hello staff......
 type: staff
 team:
-  - name: Halvard Ellingsen
-    position: CEO
-    email: he@turbulentflux.com
-    linkedin: https://www.linkedin.com/in/halvard-ellingsen-a646b16/
-    phone: +47 982 30 341
-    description: Key management positions in Oil&amp;Gas from Schlumberger,<br />
-      SPT Group, and Kongsberg.<br /> Co-founder of ABBON, a multiphase flow
-      metering company.
-    image: /img/tf_halvard-ellingsen.jpg
   - name: Gjermund Weisz
     email: gw@turbulentflux.com
     position: COO
@@ -21,6 +12,15 @@ team:
       Schlumberger and SPT Group. Co-founder of a pioneer IT company in
       location-based services.
     image: /img/tf_gjermund-weisz.jpg
+  - name: Halvard Ellingsen
+    position: CEO
+    email: he@turbulentflux.com
+    linkedin: https://www.linkedin.com/in/halvard-ellingsen-a646b16/
+    phone: +47 982 30 341
+    description: Key management positions in Oil&amp;Gas from Schlumberger,<br />
+      SPT Group, and Kongsberg.<br /> Co-founder of ABBON, a multiphase flow
+      metering company.
+    image: /img/tf_halvard-ellingsen.jpg
   - name: Kjetil Row
     position: CFO
     image: /img/tf_kjetil-roe.jpg
