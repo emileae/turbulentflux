@@ -1,6 +1,6 @@
 ---
 title: Turbulent Flux Staff
-intro: Hello staff...
+intro: Hello staff......
 type: staff
 team:
   - name: Gjermund Weisz
