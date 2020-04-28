@@ -7,7 +7,7 @@
     collections:
     - name: home
       label: Home
-      file: content/home.md
+      folder: content/home
       create: false
       editor:
         preview: true
@@ -20,7 +20,7 @@
         widget: markdown
     - name: contact
       label: Contact
-      folder: content/
+      files: content/contact.md
       create: false
       editor:
         preview: true
