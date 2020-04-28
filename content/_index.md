@@ -4,7 +4,7 @@ heroImage: /images/shutterstock_647151109.jpg
 heading: Plug and play software to improve your oil and gas production.
 draft: true
 type: home
-contactText: Wanna know more? Get in touch
+contactText: Wanna know more? Get in touch.
 sections:
   - title: Why we exist
     body: <p>The Oil and Gas industry stands on the edge of a new frontier. Digital
@@ -58,7 +58,6 @@ sections:
       - diagramSectionTitle: Values
         diagramSectionPoints:
           - Daily flow insights to support higher production output
-          - another point
   - title: How it works
     body: >-
       <p><strong>We are not in the business of stand alone physics or data
