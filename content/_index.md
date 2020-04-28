@@ -6,6 +6,7 @@ draft: true
 type: home
 sections:
   - title: Why we exist
+    hasDiagram: false
     body: <p>The Oil and Gas industry stands on the edge of a new frontier. Digital
       transformation is continuously changing how we operate, and as
       digitalization increases, we expect reduced workforces to take on greater
@@ -26,6 +27,7 @@ sections:
       increased safety in your operations.</p> <p><strong>Together, we set the
       new standard for flow insights in our industry.</strong></p>
   - title: Our software
+    hasDiagram: true
     body: >-
       <h3>Plug and play software for production improvement in oil and gas.</h3>
                                                   <p>How can we produce more efficiently? How hard can we run this well without compromising installations? How can we avoid unexpected shut-ins from unstable flow?</p>
@@ -39,6 +41,7 @@ sections:
                                                   <p>Thanks to our physics-based modelling, Turbulent Flux provides a precision level that goes beyond what traditional analytics-based simulations can offer. Our software has the power to turn physical data from existing sensors into readily available and valuable insights to use in your decision-making. At any time, you can access high-fidelity information about the flow of oil, gas and water in your wells and pipelines.</p>
                                                   <p>Turbulent Flux is designed to provide expert guidance to field personnel, enabling continuous, one-click improvement of the production. This means higher efficiency, increased profitability and improved safety on your production sites.</p>
   - title: How it works
+    hasDiagram: true
     body: >-
       <p><strong>We are not in the business of stand alone physics or data
       analytics estimates. We deploy a Hybrid Model that shows the effective
