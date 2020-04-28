@@ -35,13 +35,20 @@
             - {label: Title, name: title, widget: string}
             - {label: Hero Image, name: heroImage, widget: image}
             - {label: Heading, name: heading, widget: string}
+            - {label: Contact Title, name: contactText, widget: string }
             - label: Sections
               name: sections
               widget: list
               fields:
                 - {label: Title, name: title, widget: string}
-                - {label: Diagram, name: hasDiagram, widget: boolean}
                 - {label: Body, name: body, widget: markdown}
+                - {label: Diagram, name: hasDiagram, widget: boolean}
+                - label: Diagram Sections
+                  name: diagramSections
+                  widget: list
+                  fields: 
+                    - {label: Title, name: diagramSectionTitle, widget: string}
+                    - {label: Points, name: diagramSectionPoints, widget: list}
     - name: blog
       label: Blog
       folder: content/blog
