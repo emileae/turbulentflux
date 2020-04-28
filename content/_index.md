@@ -27,7 +27,6 @@ sections:
       increased safety in your operations.</p> <p><strong>Together, we set the
       new standard for flow insights in our industry.</strong></p>
     hasDiagram: false
-
   - title: Our software
     body: >-
       <h3>Plug and play software for production improvement in oil and gas.</h3>
@@ -43,22 +42,23 @@ sections:
                                                   <p>Turbulent Flux is designed to provide expert guidance to field personnel, enabling continuous, one-click improvement of the production. This means higher efficiency, increased profitability and improved safety on your production sites.</p>
     hasDiagram: true
     diagramSections:
-    - diagramSectionTitle: Differentiators
-      diagramSectionPoints:
-      - Robust and efficient calculations
-      - Valid model over life time of system
-      - Open technology access
-      - Rapid deployment
-    - diagramSectionTitle: Benefits
-      diagramSectionPoints:
-      - Fit for purpose technology
-      - Easy to sustain for field teams
-      - Quickly harvest system values
-      - Reduce technology dependencies
-      - Enable innovation
-    - diagramSectionTitle: Values
-      diagramSectionPoints:
-      - Daily flow insights to support higher production output
+      - diagramSectionTitle: Differentiators
+        diagramSectionPoints:
+          - Robust and efficient calculations
+          - Valid model over life time of system
+          - Open technology access
+          - Rapid deployment
+      - diagramSectionTitle: Benefits
+        diagramSectionPoints:
+          - Fit for purpose technology
+          - Easy to sustain for field teams
+          - Quickly harvest system values
+          - Reduce technology dependencies
+          - Enable innovation
+      - diagramSectionTitle: Values
+        diagramSectionPoints:
+          - Daily flow insights to support higher production output
+          - another point
   - title: How it works
     body: >-
       <p><strong>We are not in the business of stand alone physics or data
@@ -70,19 +70,19 @@ sections:
                                                   <p>The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.</p>
     hasDiagram: true
     diagramSections:
-    - diagramSectionTitle: Physics Model
-      diagramSectionPoints:
-      - Extrapolate outside of measurements
-      - Proven in the industry
-      - Transparent physics
-    - diagramSectionTitle: Analytics Model
-      diagramSectionPoints:
-      - Fast result calculations
-      - Quick to deploy
-      - Cloud friendly
-    - diagramSectionTitle: Hybrid Model
-      diagramSectionPoints:
-      - Applying the best of Physics and Analytics
-      - Built for the Cloud
-      - Industrial scalable
+      - diagramSectionTitle: Physics Model
+        diagramSectionPoints:
+          - Extrapolate outside of measurements
+          - Proven in the industry
+          - Transparent physics
+      - diagramSectionTitle: Analytics Model
+        diagramSectionPoints:
+          - Fast result calculations
+          - Quick to deploy
+          - Cloud friendly
+      - diagramSectionTitle: Hybrid Model
+        diagramSectionPoints:
+          - Applying the best of Physics and Analytics
+          - Built for the Cloud
+          - Industrial scalable
 ---
