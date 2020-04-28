@@ -25,6 +25,7 @@ sections:
       you reap the benefits of optimized production, boosted efficiency and
       increased safety in your operations.</p> <p><strong>Together, we set the
       new standard for flow insights in our industry.</strong></p>
+    hasDiagram: false
   - title: Our software
     body: >-
       <h3>Plug and play software for production improvement in oil and gas.</h3>
@@ -38,6 +39,7 @@ sections:
                                                   <p>Turbulent Flux means full control, all the time. By offering 24/7 real-time monitoring of wells and pipelines, our software offers continuous decision support to improve production from your fields.</p>
                                                   <p>Thanks to our physics-based modelling, Turbulent Flux provides a precision level that goes beyond what traditional analytics-based simulations can offer. Our software has the power to turn physical data from existing sensors into readily available and valuable insights to use in your decision-making. At any time, you can access high-fidelity information about the flow of oil, gas and water in your wells and pipelines.</p>
                                                   <p>Turbulent Flux is designed to provide expert guidance to field personnel, enabling continuous, one-click improvement of the production. This means higher efficiency, increased profitability and improved safety on your production sites.</p>
+    hasDiagram: true
   - title: How it works
     body: >-
       <p><strong>We are not in the business of stand alone physics or data
@@ -47,4 +49,5 @@ sections:
                                                   <p>Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.</p>
                                                   <p>Openness and flexibility are important values for Turbulent Flux. We facilitate third-party innovation on top of our software and provide easy access to the technology for developers that wish to create custom solutions.</p>
                                                   <p>The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.</p>
+    hasDiagram: true
 ---
