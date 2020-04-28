@@ -7,7 +7,7 @@
     collections:
     - name: home
       label: Home
-      folder: content/home
+      file: content/home.md
       create: false
       editor:
         preview: true
