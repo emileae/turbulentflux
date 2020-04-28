@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staffs on Turbulent Flux</title>
+    <link>https://turbulentflux.com/staff/</link>
+    <description>Recent content in Staffs on Turbulent Flux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://turbulentflux.com/staff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Turbulent Flux Staff</title>
+      <link>https://turbulentflux.com/staff/staff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/staff/staff/</guid>
+      <description>Some content</description>
+    </item>
+    
+  </channel>
+</rss>

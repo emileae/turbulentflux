@@ -2,4 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
+  <url>
+    <loc>https://turbulentflux.com/case/</loc>
+    <lastmod>2020-04-28T06:58:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/case/2020-04-28-dummy/</loc>
+    <lastmod>2020-04-28T06:58:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/blog/</loc>
+    <lastmod>2020-04-26T23:49:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/case/2020-04-26-test-blog-2-copy/</loc>
+    <lastmod>2020-04-26T23:49:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/case/2020-04-26-test-blog-2/</loc>
+    <lastmod>2020-04-26T23:49:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/blog/2020-04-26-test-blog/</loc>
+    <lastmod>2020-04-26T23:49:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/case/2020-04-26-test-blog/</loc>
+    <lastmod>2020-04-26T23:49:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/about/</loc>
+    <lastmod>2020-04-26T23:14:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/</loc>
+    <lastmod>2020-04-26T23:13:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/home/</loc>
+    <lastmod>2020-04-26T23:13:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/posts/b/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/posts/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/posts/a/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/home/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/staff/</loc>
+  </url>
+  
+  <url>
+    <loc>https://turbulentflux.com/staff/staff/</loc>
+  </url>
+  
 </urlset>

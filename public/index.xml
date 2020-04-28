@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Turbulent Flux</title>
+    <title>Home on Turbulent Flux</title>
     <link>https://turbulentflux.com/</link>
-    <description>Recent content on Turbulent Flux</description>
+    <description>Recent content in Home on Turbulent Flux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Apr 2020 23:13:50 +0200</lastBuildDate>
@@ -12,29 +12,48 @@
     
     
     <item>
-      <title>Contact</title>
-      <link>https://turbulentflux.com/contact/</link>
-      <pubDate>Sun, 26 Apr 2020 23:14:26 +0200</pubDate>
+      <title>dummy</title>
+      <link>https://turbulentflux.com/case/2020-04-28-dummy/</link>
+      <pubDate>Tue, 28 Apr 2020 06:58:51 +0000</pubDate>
       
-      <guid>https://turbulentflux.com/contact/</guid>
-      <description>Where to find us  Contact us        Where to find us    Contact
-+47 982 30 343 post@turbulentflux.com
- Visit us
-Karenslyst Alle 6 0278 Oslo, Norway
-        Contact us                     </description>
+      <guid>https://turbulentflux.com/case/2020-04-28-dummy/</guid>
+      <description>eeeee</description>
     </item>
     
     <item>
-      <title>Case</title>
-      <link>https://turbulentflux.com/case/</link>
-      <pubDate>Sun, 26 Apr 2020 23:14:19 +0200</pubDate>
+      <title>Flow Information on Demand</title>
+      <link>https://turbulentflux.com/case/2020-04-26-test-blog-2-copy/</link>
+      <pubDate>Sun, 26 Apr 2020 23:49:16 +0000</pubDate>
       
-      <guid>https://turbulentflux.com/case/</guid>
-      <description> Virtual Flow Meter  Stable Production Adviser  Flow Information on Demand       Scalable use cases for a digitized and efficient industry.      Virtual Flow Meter, VFM Bla bla bla
-       Stable Production Adviser &amp;nbsp;
-bla, bla ukeblad&amp;#8230;
-       Flow Information on Demand jada, bladda, klalla, blakka
-       </description>
+      <guid>https://turbulentflux.com/case/2020-04-26-test-blog-2-copy/</guid>
+      <description>jada, bladda, klalla, blakka</description>
+    </item>
+    
+    <item>
+      <title>Stable Production Adviser</title>
+      <link>https://turbulentflux.com/case/2020-04-26-test-blog-2/</link>
+      <pubDate>Sun, 26 Apr 2020 23:49:16 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/case/2020-04-26-test-blog-2/</guid>
+      <description>bla, bla ukeblad&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>Test Blog</title>
+      <link>https://turbulentflux.com/blog/2020-04-26-test-blog/</link>
+      <pubDate>Sun, 26 Apr 2020 23:49:16 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/blog/2020-04-26-test-blog/</guid>
+      <description>Yoyoyo this is a test</description>
+    </item>
+    
+    <item>
+      <title>Virtual Flow Meter, VFM</title>
+      <link>https://turbulentflux.com/case/2020-04-26-test-blog/</link>
+      <pubDate>Sun, 26 Apr 2020 23:49:16 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/case/2020-04-26-test-blog/</guid>
+      <description>Bla bla bla</description>
     </item>
     
     <item>
@@ -43,7 +62,64 @@ bla, bla ukeblad&amp;#8230;
       <pubDate>Sun, 26 Apr 2020 23:14:05 +0200</pubDate>
       
       <guid>https://turbulentflux.com/about/</guid>
-      <description>About  Team  Board       We democratize the use of multiphase flow information.      About us The Oil and Gas industry has been leveraging data for decades. Increasing digitization has added to the huge amount of data available, pouring massive amounts of sensor data onto data platforms. But strangely enough, only about 1% of the data is used for decision-purposes.</description>
+      <description>About us The Oil and Gas industry has been leveraging data for decades. Increasing digitization has added to the huge amount of data available, pouring massive amounts of sensor data onto data platforms. But strangely enough, only about 1% of the data is used for decision-purposes.
+With over 50 years’ joint experience from the industry, Gjermund Weisz, Kjetil Roe, Torgeir Ruden and Lars Vollebæk knew this all too well. For years they had agonized over the quantity of incomprehensible data that no one made good use of.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://turbulentflux.com/home/</link>
+      <pubDate>Sun, 26 Apr 2020 23:13:50 +0200</pubDate>
+      
+      <guid>https://turbulentflux.com/home/</guid>
+      <description>Some content</description>
+    </item>
+    
+    <item>
+      <title>My Go Journey 2</title>
+      <link>https://turbulentflux.com/posts/b/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/posts/b/</guid>
+      <description>I decided to start learning Go in March 2017&amp;hellip;.22222.
+Follow my journey through this new blog.</description>
+    </item>
+    
+    <item>
+      <title>My Go Journey</title>
+      <link>https://turbulentflux.com/posts/a/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/posts/a/</guid>
+      <description>I decided to start learning Go in March 2017.
+Follow my journey through this new blog.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://turbulentflux.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://turbulentflux.com/home/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/home/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbulent Flux Staff</title>
+      <link>https://turbulentflux.com/staff/staff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/staff/staff/</guid>
+      <description>Some content</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Turbulent Flux</title>
+    <link>https://turbulentflux.com/blog/</link>
+    <description>Recent content in Blogs on Turbulent Flux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 23:49:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://turbulentflux.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Blog</title>
+      <link>https://turbulentflux.com/blog/2020-04-26-test-blog/</link>
+      <pubDate>Sun, 26 Apr 2020 23:49:16 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/blog/2020-04-26-test-blog/</guid>
+      <description>Yoyoyo this is a test</description>
+    </item>
+    
+  </channel>
+</rss>

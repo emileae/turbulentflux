@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Turbulent Flux</title>
+    <link>https://turbulentflux.com/posts/</link>
+    <description>Recent content in Posts on Turbulent Flux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://turbulentflux.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Go Journey 2</title>
+      <link>https://turbulentflux.com/posts/b/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/posts/b/</guid>
+      <description>I decided to start learning Go in March 2017&amp;hellip;.22222.
+Follow my journey through this new blog.</description>
+    </item>
+    
+    <item>
+      <title>My Go Journey</title>
+      <link>https://turbulentflux.com/posts/a/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/posts/a/</guid>
+      <description>I decided to start learning Go in March 2017.
+Follow my journey through this new blog.</description>
+    </item>
+    
+  </channel>
+</rss>
