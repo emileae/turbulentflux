@@ -6,7 +6,7 @@ draft: true
 type: home
 sections:
   - title: Why we exist
-    body: <p>The Oil and Gas industry. stands on the edge of a new frontier. Digital
+    body: <p>The Oil and Gas industry stands on the edge of a new frontier. Digital
       transformation is continuously changing how we operate, and as
       digitalization increases, we expect reduced workforces to take on greater
       workloads. It’s expected that we deliver more and better with fewer
