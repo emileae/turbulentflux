@@ -6,7 +6,7 @@
     <description>Recent content in Home on Turbulent Flux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 23:13:50 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 23:14:05 +0200</lastBuildDate>
     
 	<atom:link href="https://turbulentflux.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -68,11 +68,12 @@ With over 50 years’ joint experience from the industry, Gjermund Weisz, Kjetil
     
     <item>
       <title>Home</title>
-      <link>https://turbulentflux.com/home/</link>
+      <link>https://turbulentflux.com/_index_old/</link>
       <pubDate>Sun, 26 Apr 2020 23:13:50 +0200</pubDate>
       
-      <guid>https://turbulentflux.com/home/</guid>
-      <description>Some content</description>
+      <guid>https://turbulentflux.com/_index_old/</guid>
+      <description>Some content
+Why we exist  Our software  How it works  Get in touch       Plug and play software to improve your oil and gas production.      Why we exist The Oil and Gas industry stands on the edge of a new frontier. Digital transformation is continuously changing how we operate, and as digitalization increases, we expect reduced workforces to take on greater workloads.</description>
     </item>
     
     <item>
@@ -106,11 +107,29 @@ Follow my journey through this new blog.</description>
     
     <item>
       <title>Home</title>
+      <link>https://turbulentflux.com/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
       <link>https://turbulentflux.com/home/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://turbulentflux.com/home/home/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://turbulentflux.com/home_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/home_old/</guid>
+      <description>Some content</description>
     </item>
     
     <item>

@@ -18,22 +18,37 @@
       - label: Text
         name: text
         widget: markdown
-    - name: contact
-      label: Contact
-      folder: content/
-      create: false
-      editor:
-        preview: true
-      fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Right Column
-        name: rightColumn
-        widget: markdown
-      - label: Left Column
-        name: leftColumn
-        widget: markdown
+    - name: pages
+      label: Pages
+      files: 
+        - label: "Contact"
+          name: "contact"
+          file: "content/contact.md"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Right Column, name: rightColumn, widget: markdown}
+            - {label: Left Column, name: leftColumn, widget: markdown}
+        - label: "Home"
+          name: "home"
+          file: "content/_index.md"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Hero Image, name: heroImage, widget: image}
+            - {label: Heading, name: heading, widget: string}
+            - {label: Contact Title, name: contactText, widget: string }
+            - label: Sections
+              name: sections
+              widget: list
+              fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Body, name: body, widget: markdown}
+                - {label: Diagram, name: hasDiagram, widget: boolean}
+                - label: Diagram Sections
+                  name: diagramSections
+                  widget: list
+                  fields: 
+                    - {label: Title, name: diagramSectionTitle, widget: string}
+                    - {label: Points, name: diagramSectionPoints, widget: list}
     - name: blog
       label: Blog
       folder: content/blog
