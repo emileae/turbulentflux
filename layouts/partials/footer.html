@@ -1,0 +1,41 @@
+{{ with .Site.GetPage "/footer.md" }}
+<footer class="footer">
+    <!-- bg-dark | bg-blue | bg-gray -->
+    <div class="footer__wrapper">
+        <div class="footer__inner">
+            <div class="footer__holder">
+                <div class="footer__column-logo">
+                    <a class="footer__logo" href="/">
+                        <img src="/images/logo-white.svg" class="footer__logo-img" alt="" />
+                    </a>
+                </div>
+                <div class="footer__column-content footer__column-content--contact">
+                    <p class="footer__strong">Contact</p>
+                    <p>&nbsp;</p>
+
+                    <p class="footer__text">
+                        <a href="mailto:{{ .Params.email }}" class="footer__link">{{ .Params.email }}</a>
+                    </p>
+                </div>
+                <div class="footer__column-content footer__column-content--address">
+                    <p class="footer__strong">Visit us</p>
+                    <p>&nbsp;</p>
+                    <p class="footer__text">
+                        {{ .Params.address | safeHTML }}
+                    </p>
+                </div>
+                <div class="footer__column-social">
+                    <p class="footer__strong"><a href="{{ .Params.youtube }}" target="_blank" class="footer__link">YouTube</a></p>
+                    <p>&nbsp;</p>
+                    <p class="footer__strong"><a href="{{ .Params.linkedin }}" target="_blank" class="footer__link">LinkedIn</a></p>
+                </div>
+            </div>
+            <div class="footer__holder footer__holder--copyright">
+                <div class="footer__column-copyright">
+                    <p class="text-small">{{ .Params.bottomText }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{{ end }}

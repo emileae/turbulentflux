@@ -3,7 +3,7 @@ title: Home
 heroImage: /images/shutterstock_647151109.jpg
 heading: Plug and play software to improve your oil and gas production.
 draft: true
-type: home
+# type: home
 sections:
   - title: Why we exist
     body: <p>The Oil and Gas industry stands on the edge of a new frontier. Digital
