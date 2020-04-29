@@ -106,5 +106,3 @@ board:
     phone: "-"
     description: CFO in Turbulent Flux.
 ---
-
-Some content

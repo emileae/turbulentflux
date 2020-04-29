@@ -8,6 +8,14 @@
     - name: pages
       label: Pages
       files: 
+        - label: "About"
+          name: "about"
+          file: "content/about.md"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Hero Image, name: backgroundImage, widget: image}
+            - {label: Hero Text, name: heroText, widget: string}
+            - {label: Body, name: body, widget: markdown}
         - label: "Contact"
           name: "contact"
           file: "content/contact.md"
@@ -36,26 +44,6 @@
                   fields: 
                     - {label: Title, name: diagramSectionTitle, widget: string}
                     - {label: Points, name: diagramSectionPoints, widget: list}
-    - name: blog
-      label: Blog
-      folder: content/blog
-      create: true
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-      editor:
-        preview: false
-      fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Description
-        name: description
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
     - name: case
       label: Case
       folder: content/case
@@ -84,12 +72,6 @@
       editor:
         preview: false
       fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Intro
-        name: intro
-        widget: markdown
       - label: Team
         name: team
         widget: list
@@ -105,12 +87,15 @@
           widget: string
         - label: Email
           name: email
+          required: false
           widget: string
         - label: LinkedIn
           name: linkedin
+          required: false
           widget: string
         - label: Phone
           name: phone
+          required: false
           widget: string
         - label: Description
           name: description
@@ -130,15 +115,19 @@
           widget: string
         - label: Email
           name: email
+          required: false
           widget: string
         - label: LinkedIn
           name: linkedin
+          required: false
           widget: string
         - label: Phone
           name: phone
+          required: false
           widget: string
         - label: Description
           name: description
+          required: false
           widget: markdown
     - name: general
       label: General

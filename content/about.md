@@ -1,6 +1,7 @@
 ---
 title: "About"
-date: 2020-04-26T23:14:05+02:00
+backgroundImage: /images/shutterstock_425153317-1.jpg
+heroText: We democratize the use of multiphase flow information.
 draft: true
 type: "about"
 ---

@@ -15,14 +15,14 @@
     </div>
     <section class="hero hero--front" id="">
         <div class="hero__bg-image-holder">
-            <div class="hero__bg-image-desktop" style="background-image: url('/images/shutterstock_425153317-1.jpg')"></div>
-            <div class="hero__bg-image-mobile" style="background-image: url('/images/shutterstock_425153317-1.jpg')"></div>
+            <div class="hero__bg-image-desktop" style="background-image: url('{{ .Params.backgroundImage }}')"></div>
+            <div class="hero__bg-image-mobile" style="background-image: url('{{ .Params.backgroundImage }}')"></div>
         </div>
         <div class="hero__wrapper">
             <div class="hero__inner">
                 <div class="hero__holder">
                     <div class="hero__content">
-                        <h1 class="hero__heading">We democratize the use of multiphase flow information.</h1>
+                        <h1 class="hero__heading">{{ .Params.heroText }}</h1>
                     </div>
                 </div>
             </div>
