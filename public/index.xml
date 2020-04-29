@@ -106,6 +106,24 @@ Follow my journey through this new blog.</description>
     </item>
     
     <item>
+      <title>docs</title>
+      <link>https://turbulentflux.com/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>footer</title>
+      <link>https://turbulentflux.com/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://turbulentflux.com/footer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Home</title>
       <link>https://turbulentflux.com/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -5,19 +5,6 @@
     media_folder: static/img
     public_folder: "/img"
     collections:
-    - name: home
-      label: Home
-      folder: content/home
-      create: false
-      editor:
-        preview: true
-      fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Text
-        name: text
-        widget: markdown
     - name: pages
       label: Pages
       files: 
@@ -153,4 +140,16 @@
         - label: Description
           name: description
           widget: markdown
+    - name: general
+      label: General
+      files: 
+        - label: "Footer"
+          name: "footer"
+          file: "content/footer.md"
+          fields:
+            - {label: Address, name: email, widget: string}
+            - {label: Email, name: address, widget: markdown}
+            - {label: Bottom Text, name: bottomText, widget: markdown}
+            - {label: Youtube, name: youtube, widget: string}
+            - {label: LinkedIn, name: linkedin, widget: string}
     
