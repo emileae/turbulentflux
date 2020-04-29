@@ -98,9 +98,7 @@ sections:
       Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.
 
 
-
       Openness and flexibility are important values for Turbulent Flux. We facilitate third-party innovation on top of our software and provide easy access to the technology for developers that wish to create custom solutions.
-
 
 
       The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.
