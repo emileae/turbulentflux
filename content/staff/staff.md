@@ -3,15 +3,6 @@ title: Turbulent Flux Staff
 intro: Hello staff......
 type: staff
 team:
-  - name: Gjermund Weisz
-    email: gw@turbulentflux.com
-    position: COO
-    linkedin: https://www.linkedin.com/in/gjermund-weisz-252108/
-    phone: +47 982 30 341
-    description: Product Management for multiphase simulator technologies in
-      Schlumberger and SPT Group. Co-founder of a pioneer IT company in
-      location-based services.
-    image: /img/tf_gjermund-weisz.jpg
   - name: Halvard Ellingsen
     position: CEO
     email: he@turbulentflux.com
@@ -21,6 +12,15 @@ team:
       SPT Group, and Kongsberg.<br /> Co-founder of ABBON, a multiphase flow
       metering company.
     image: /img/tf_halvard-ellingsen.jpg
+  - name: Gjermund Weisz
+    email: gw@turbulentflux.com
+    position: COO
+    linkedin: https://www.linkedin.com/in/gjermund-weisz-252108/
+    phone: +47 982 30 341
+    description: Product Management for multiphase simulator technologies in
+      Schlumberger and SPT Group. Co-founder of a pioneer IT company in
+      location-based services.
+    image: /img/tf_gjermund-weisz.jpg
   - name: Kjetil Row
     position: CFO
     image: /img/tf_kjetil-roe.jpg
