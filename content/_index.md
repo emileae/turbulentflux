@@ -92,7 +92,7 @@ sections:
       estimates. We deploy a Hybrid Model that shows the effective reality.***
 
 
-      Turbulent Flux’ has developed a fit for purpose simulator for transient multiphase flow with opimization and data analytics capabilities. This means that our software gives you exact, information about the flow of fluids in your wells and pipes at any time.
+      Turbulent Flux’ has developed a fit for purpose simulator for transient multiphase flow with optimization and data analytics capabilities. This means that our software gives you exact, information about the flow of fluids in your wells and pipes at any time.
 
 
       Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.
