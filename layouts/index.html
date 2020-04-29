@@ -38,7 +38,7 @@
                         <div class="read-more js-read-more" data-max-height="400">
                             <div class="read-more__content js-read-more-content">
                                 <h2>{{ .title }}</h2>
-                                {{ .body | safeHTML }}
+                                {{ .body | markdownify }}
                             </div>
                         </div>
                     </div>
