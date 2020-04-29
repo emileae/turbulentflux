@@ -88,13 +88,22 @@ sections:
           - Daily flow insights to support higher production output
   - title: How it works
     body: >-
-      <p><strong>We are not in the business of stand alone physics or data
-      analytics estimates. We deploy a Hybrid Model that shows the effective
-      reality.</strong></p>
-                                                  <p>Turbulent Flux’ has developed a fit for purpose simulator for transient multiphase flow with opimization and data analytics capabilities. This means that our software gives you exact, information about the flow of fluids in your wells and pipes at any time.</p>
-                                                  <p>Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.</p>
-                                                  <p>Openness and flexibility are important values for Turbulent Flux. We facilitate third-party innovation on top of our software and provide easy access to the technology for developers that wish to create custom solutions.</p>
-                                                  <p>The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.</p>
+      ***We are not in the business of stand alone physics or data analytics
+      estimates. We deploy a Hybrid Model that shows the effective reality.***
+
+
+      Turbulent Flux’ has developed a fit for purpose simulator for transient multiphase flow with opimization and data analytics capabilities. This means that our software gives you exact, information about the flow of fluids in your wells and pipes at any time.
+
+
+      Our next-generation technology is designed and structured for complex real-time environments using the best of physics and data analytics. Simulations are accurate, robust and consistently validated throughout the production cycles.
+
+
+
+      Openness and flexibility are important values for Turbulent Flux. We facilitate third-party innovation on top of our software and provide easy access to the technology for developers that wish to create custom solutions.
+
+
+
+      The software is offered as a subscription-based service and maintenance is hassle-free and easy to operate for the users.
     hasDiagram: true
     diagramSections:
       - diagramSectionTitle: Physics Model
