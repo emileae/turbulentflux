@@ -6,6 +6,7 @@ type: about
 backgroundImage: /img/shutterstock_425153317-1.jpg
 heroText: We democratize the use of multiphase flow information.
 ---
+
 ## About us ##
 The Oil and Gas industry has been leveraging data for decades. Increasing digitization has added to the huge amount of data available, pouring massive amounts of sensor data onto data platforms. But strangely enough, only about 1% of the data is used for decision-purposes.
 
