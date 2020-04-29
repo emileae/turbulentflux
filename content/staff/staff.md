@@ -58,6 +58,15 @@ team:
     linkedin: https://www.linkedin.com/in/johan-henriksson-a124384/
     phone: "-"
     description: "-"
+  - name: Emile Esterhuizen
+    image: /img/tf_emile-esterhuizen.jpg
+    position: Software Engineer
+    email: ee@turbulentflux.com
+    linkedin: https://www.linkedin.com/in/emileesterhuizen/
+    phone: "+4790187682"
+    description: Very experienced full-stack developer, 10+ years of experience from
+      implementing the latest cloud technologies, both in start-ups and larger
+      organisations
 board:
   - name: Tom Even Mortensen
     image: /img/tf_tom-even-mortensen.jpg
