@@ -6,7 +6,7 @@ draft: true
 type: case
 heading: Scalable use cases for a digitized and efficient industry.
 useCases:
-  - title: Virtual Flow Metering
+  - title: Virtual Flow Metering..
     body: >-
       Multiphase flowrate measurements of oil, gas, and water play an important
       role in production optimization, rate allocation and reservoir
