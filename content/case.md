@@ -37,13 +37,6 @@ useCases:
       production facility limitations and increase production output.  This will
       avoid uneccessary production choke backs or shut-ins from severe
       instabilities.
-  - title: Use of API
-    body: The Turbulent Flux API is very powerful as it enables our transient
-      multiphase simulator to be consumed by 3rd party applications.  We have
-      developed a rich REST API that gives the 3rd party full flexibility. Our
-      partner Cognite AS is actively using our API to develop their own
-      innovative applications that will benefit from the Turbulent Flux
-      technology.
   - title: Wax Monitoring
     body: Turbulent Flux Wax Monitoring provides a real time wax deposition
       product.  The product is developed in partnership with Petronas based on
@@ -51,4 +44,11 @@ useCases:
       time with operations and relates to fluid compositions and operational
       changes.  The client value is to save cost by intelligent wax monitoring
       so pigging operation will only be conducted when required.
+  - title: Use of API
+    body: The Turbulent Flux API is very powerful as it enables our transient
+      multiphase simulator to be consumed by 3rd party applications.  We have
+      developed a rich REST API that gives the 3rd party full flexibility. Our
+      partner Cognite AS is actively using our API to develop their own
+      innovative applications that will benefit from the Turbulent Flux
+      technology.
 ---
